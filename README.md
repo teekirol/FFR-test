@@ -1,3 +1,8 @@
+# TO RUN
+`sbt "run readings.csv"`
+
+# DESCRIPTION
+
 In your favourite language*, write a library to analyse power readings from industrial assets. Your goal is to determine whether or not the device reacts quickly enough to meet National Grid requirements for Fast Frequency Response (FFR). In the FFR programme, assets that consume power automatically switch off (or "turn down") to reduce power consumption when there is an under-supply. The control signal we use is the supply frequency: when the frequency drops below a threshold, there is an under-supply of power on the grid.
 
 OK, we can read Java, Scala, Python, Haskell, Elm, Ruby, JavaScript, Groovy and probably a few others. Don't make it too hard for us. Brainfuck is right out.
